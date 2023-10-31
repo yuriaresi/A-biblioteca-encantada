@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "../Button";
 import { CardStyled } from "./styled";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 interface CardBooksProps {
   id: number;
@@ -43,7 +44,6 @@ export function CardBooks(props: CardBooksProps) {
               <h6>Descrição:</h6>
               <p>{props.description}</p>
 
-             
               <Button
                 title="Editar"
                 clickFunction={() => props.handleEditBook(props.id)}
