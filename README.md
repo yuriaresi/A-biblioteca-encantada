@@ -19,8 +19,8 @@ Este é um projeto React que funciona como um gerenciador de livros, permitindo 
 
 1. Clone este repositório em sua máquina local.
 2. Abra um terminal na pasta do projeto e execute `npm install` para instalar as dependências.
-3. Execute `npm start` para iniciar o servidor de desenvolvimento.
-4. Acesse o aplicativo no navegador através do link `http://localhost:3000`.
+3. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+4. Acesse o aplicativo no navegador através do link `http://localhost:5173/`.
 
 ## Funcionalidades Futuras
 
