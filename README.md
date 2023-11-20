@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# Biblioteca Mágica - Gerenciador de Livros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que funciona como um gerenciador de livros, permitindo adicionar, editar, visualizar e excluir informações sobre diferentes livros.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adição de novos livros com título, autor, gênero, data de publicação, data de cadastro e descrição.
+- Edição dos detalhes de um livro existente.
+- Exclusão de livros da biblioteca.
+- Mostrar/Ocultar a lista de livros cadastrados.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Bootstrap (para estilos)
 
-- Configure the top-level `parserOptions` property like this:
+## Como Utilizar
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone este repositório em sua máquina local.
+2. Abra um terminal na pasta do projeto e execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o servidor de desenvolvimento.
+4. Acesse o aplicativo no navegador através do link `http://localhost:3000`.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Funcionalidades Futuras
+
+- Implementar uma funcionalidade de pesquisa para buscar livros específicos na biblioteca.
+
+## Estrutura do Código
+
+- `src/components`: Contém componentes reutilizáveis.
+- `src/pages`: Contém as páginas principais do aplicativo.
+- `src/styles`: Arquivos de estilo.
+- `src/types`: Tipos TypeScript utilizados no projeto.
+
+## Autor
+
+Este projeto foi desenvolvido por [Yuri Aresi](https://www.linkedin.com/in/yuriaresi/) como parte de um exercício prático.
+
